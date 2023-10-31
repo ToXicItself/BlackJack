@@ -1,0 +1,59 @@
+*{
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+img{
+  position:fixed;
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url("peakpx\ \(2\).jpg");
+  background-size: cover;
+}
+#su {
+  background-color:black;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  width: 25vw;
+  height: 25vh;
+  margin: auto;
+  margin-top: 250px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5cap 4px black(1, 88, 1);
+  outline: 4px solid black;
+  outline-offset:10px;
+  padding-top: 10px;
+  padding-bottom: 85px;
+
+}
+
+h1 {
+  color: goldenrod;
+}
+#mainMsg {
+  font-style: italic;
+}
+button {
+  background-color: goldenrod;
+  color: black;
+  font-weight: bolder;
+  border-radius: 5px;
+  width: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 4px;
+  display:inline;
+}
+#dealersSum,#playerSum{
+  display:flex;
+  margin-left: 96px;
+} 
+button:hover {
+  background-color: #ffdb58;
+}
+
+
