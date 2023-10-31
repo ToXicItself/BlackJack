@@ -73,6 +73,7 @@ function renderGame1() {
 }
 
 function stand() {
+    if (isAlive === true && hasBlackjack === false) {
 
     while (sum1 < 17) {
         let new_Dcard = Math.floor(Math.random() * 11) + 1;
@@ -104,6 +105,7 @@ function stand() {
     document.getElementById('startGame').style = "display:inline";
     isAlive = false;
 
+}
 }
 
 function newCard() {
